@@ -1,0 +1,20 @@
+CryptoVault Manual Testing Setup Guide
+
+1. Environment Setup:
+   - App: CryptoVault (use demo crypto app like sandbox.binance.com or Android/iOS emulator).
+   - Tools: Chrome browser, Postman for API testing.
+   - Prerequisites: Stable internet, emulator (e.g., Android Studio), Postman installed.
+
+2. Test Environment:
+   - URL: https://sandbox.binance.com (or local emulator).
+   - Browser: Chrome v120+, Firefox v115+.
+   - Device: Android 12+ or iOS 16+ emulator.
+
+3. Configuration:
+   - Ensure compliance with RBI’s KYC/AML and data privacy guidelines.
+   - Set up API keys in Postman for endpoints in API_Endpoints.txt.
+   - Use TestData/ for input data.
+
+4. Execution:
+   - Open TestCases_CryptoVault.xlsx and follow test steps.
+   - Log results in DefectLog.xlsx and save screenshots in Screenshots/.

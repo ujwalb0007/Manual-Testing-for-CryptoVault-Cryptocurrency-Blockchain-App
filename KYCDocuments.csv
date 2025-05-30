@@ -1,0 +1,3 @@
+UserID,PAN,Aadhaar,Status
+crypto_user1,KLMNO1234P,9876-5432-1098,Valid
+crypto_user2,XYZ123,1234-5678-9012,Invalid

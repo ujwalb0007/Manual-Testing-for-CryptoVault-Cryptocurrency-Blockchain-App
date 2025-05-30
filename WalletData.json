@@ -1,0 +1,18 @@
+[
+  {
+    "WalletID": "WAL_001",
+    "User": "crypto_user1",
+    "CryptoType": "Bitcoin",
+    "Address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+    "Balance": 0.005,
+    "Status": "Active"
+  },
+  {
+    "WalletID": "WAL_002",
+    "User": "crypto_user2",
+    "CryptoType": "Bitcoin",
+    "Address": "",
+    "Balance": 0,
+    "Status": "Invalid"
+  }
+]

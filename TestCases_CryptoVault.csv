@@ -1,0 +1,11 @@
+TestCaseID,Scenario,Precondition,TestSteps,ExpectedResult,ActualResult,Status
+TC_001,Verify user login with valid credentials,User is on login page,1. Enter username: crypto_user1, 2. Enter password: Crypto@123, 3. Click Login,User is redirected to dashboard,,Pending
+TC_002,Verify login with invalid credentials,User is on login page,1. Enter username: crypto_user1, 2. Enter password: Wrong@123, 3. Click Login,Error message: "Invalid credentials",,Pending
+TC_003,Verify wallet creation for Bitcoin,User is logged in,1. Navigate to Wallets, 2. Select Bitcoin, 3. Create wallet,Wallet created, address generated,,Pending
+TC_004,Verify wallet creation with duplicate name,User is logged in,1. Navigate to Wallets, 2. Select Bitcoin, 3. Enter existing wallet name, 4. Create wallet,Error: "Wallet name already exists",,Pending
+TC_005,Verify Bitcoin transaction to valid address,User has Bitcoin wallet,1. Navigate to Send, 2. Enter address: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa, 3. Enter amount: 0.001 BTC, 4. Submit,Transaction confirmed, blockchain updated,,Pending
+TC_006,Verify transaction to invalid address,User has Bitcoin wallet,1. Navigate to Send, 2. Enter address: invalid_address, 3. Enter amount: 0.001 BTC, 4. Submit,Error: "Invalid address",,Pending
+TC_007,Verify KYC submission with valid PAN and Aadhaar,User is in KYC section,1. Enter PAN: KLMNO1234P, Aadhaar: 9876-5432-1098, 2. Submit,KYC verified successfully,,Pending
+TC_008,Verify KYC with invalid PAN,User is in KYC section,1. Enter PAN: XYZ123, 2. Submit,Error: "Invalid PAN format",,Pending
+TC_009,Verify two-factor authentication (2FA) for transactions,User has 2FA enabled,1. Initiate transaction, 2. Enter 2FA code: 123456, 3. Submit,Transaction proceeds,,Pending
+TC_010,Verify session timeout after 3 minutes,User is logged in,1. Stay idle for 3 minutes,User logged out automatically,,Pending

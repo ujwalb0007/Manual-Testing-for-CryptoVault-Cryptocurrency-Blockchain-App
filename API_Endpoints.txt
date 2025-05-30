@@ -1,0 +1,16 @@
+CryptoVault API Endpoints for Testing
+
+1. Wallet Creation
+   - Endpoint: POST /api/wallet/create
+   - Sample Request: {"user": "crypto_user1", "crypto_type": "Bitcoin"}
+   - Expected Response: {"status": "created", "wallet_id": "WAL_001", "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"}
+
+2. Transaction Submission
+   - Endpoint: POST /api/transaction/send
+   - Sample Request: {"user": "crypto_user1", "crypto_type": "Bitcoin", "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa", "amount": 0.001}
+   - Expected Response: {"status": "confirmed", "txn_id": "TXN_001"}
+
+3. KYC Verification
+   - Endpoint: POST /api/kyc/verify
+   - Sample Request: {"pan": "KLMNO1234P", "aadhaar": "9876-5432-1098"}
+   - Expected Response: {"status": "verified"}
