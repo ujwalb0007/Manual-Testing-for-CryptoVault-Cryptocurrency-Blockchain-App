@@ -1,7 +1,18 @@
 # Manual-Testing-for-CryptoVault-Cryptocurrency-Blockchain-App
 
-
 CryptoVault is a mobile app for retail users to manage cryptocurrency wallets, perform blockchain transactions (e.g., Bitcoin, Ethereum), and comply with regulatory KYC/AML requirements. The manual testing project verifies functionality, security, compliance, and edge cases, with all files provided in an unzipped structure.
+
+CryptoVault_Testing_Project/
+├── TestCases_CryptoVault.xlsx
+├── TestData/
+│   ├── UserCredentials.csv
+│   ├── TransactionData.xlsx
+│   ├── WalletData.json
+│   ├── KYCDocuments.csv
+├── Screenshots/
+├── SetupGuide.docx
+├── DefectLog.xlsx
+├── API_Endpoints.txt
 
 Cryptocurrency Focus: Tests specialized features like wallet creation, blockchain transaction validation, crypto price tracking, and smart contract interactions, tailored to the cryptocurrency sector.
 
